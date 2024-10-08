@@ -14,9 +14,9 @@ We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machin
 
 2. Create a "build" directory inside it: `mkdir build`
 
-3. `cd build`
+3. Change to the "build" directory: `cd build`
 
-4. `cmake ..`
+4. And run: `cmake ..`
 
 5. `make`
 
