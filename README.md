@@ -6,7 +6,7 @@ Our paper, "Streaming Time Series Subsequence Anomaly Detection: A Glance and Fo
 We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machine with an Intel Xeon Gold 622R @ 2.90GHz processor and 92GB memory. 
 
 ## Steps
-1. Download this repository.
+1. Download this repository and navigate to the Sirloin folder.
 
 2. `mkdir build`
 
@@ -14,6 +14,6 @@ We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machin
 
 4. `cmake ..`
 
-5. `make'
+5. `make`
 
 6. `./main`
