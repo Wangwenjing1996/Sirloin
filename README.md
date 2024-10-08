@@ -16,4 +16,4 @@ We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machin
 
 5. `make`
 
-6. `./main`
+6. `./main` or `cd ..` then `bash run.sh'
