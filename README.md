@@ -15,11 +15,11 @@ We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machin
  * Ubuntu 22.04.02 LTS
  * CMake 3.24.0
 
-   `wget https://github.com/Kitware/CMake/releases/download/v3.24.0/cmake-3.24.0-linux-x86_64.sh`
+   `$ wget https://github.com/Kitware/CMake/releases/download/v3.24.0/cmake-3.24.0-linux-x86_64.sh`
 
-   `chmod +x cmake-3.24.0-linux-x86_64.sh`
+   `$ chmod +x cmake-3.24.0-linux-x86_64.sh`
 
-   `sudo ./cmake-3.24.0-linux-x86_64.sh --skip-license --prefix=/usr/local`
+   `$ sudo ./cmake-3.24.0-linux-x86_64.sh --skip-license --prefix=/usr/local`
  * BLAS
    
    `$ sudo apt-get update`
@@ -27,14 +27,15 @@ We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machin
    `$ sudo apt-get install libblas-dev liblapack-dev`
 
 ### Build and run steps
-1. Download this repository and change to the Sirloin folder.
-
-2. Create a "build" directory inside it: `mkdir build`
-
-3. Change to the "build" directory: `cd build`
-
-4. And run: `cmake ..`
-
-5. `make`
-
-6. `./main` or `cd ..` then `bash run.sh`
+ * Download this repository and change to the Sirloin folder.
+   `$ cd Sirlin`
+ * Create a "build" directory inside it.
+    `$ mkdir build`
+ * Change to the "build" directory.
+    `$ cd build`
+ * Run:
+   `$ cmake ..`
+   
+   `$ make`
+   
+   `$ ./main` or `$ cd ..` then `$ bash run.sh`
