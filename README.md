@@ -23,7 +23,7 @@ We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machin
 ### Build and run steps
  * Download this repository and change to the Sirloin folder.
 
-   `$ cd Sirlin`
+   `$ cd Sirloin`
  * Create a "build" directory inside it.
 
    `$ mkdir build`
