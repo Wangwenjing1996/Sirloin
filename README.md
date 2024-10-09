@@ -12,6 +12,7 @@ We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machin
 
 ### Prerequisites
  * Ubuntu 22.04.02 LTS
+ * GCC 8.3.1
  * CMake 3.24.0
  * BLAS
    
