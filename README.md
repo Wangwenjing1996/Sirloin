@@ -5,8 +5,7 @@ Our paper, "Streaming Time Series Subsequence Anomaly Detection: A Glance and Fo
 
 ## Directory description
   * data: The dataset required for Sirloin has the following format: the first row indicates the length of the time series, the first column contains the data points, and the second column is the labels (where 0 represents normal and 1 represents an anomaly).
-  * faiss-main: The source code for FAISS.
-  * include: The source code for Sirloin.
+  * faiss-main and include: The source code for Sirloin.
 
 ## Linux build
 We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machine with an Intel Xeon Gold 622R @ 2.90GHz processor and 92GB memory. 
@@ -14,12 +13,6 @@ We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machin
 ### Prerequisites
  * Ubuntu 22.04.02 LTS
  * CMake 3.24.0
-
-   `$ wget https://github.com/Kitware/CMake/releases/download/v3.24.0/cmake-3.24.0-linux-x86_64.sh`
-
-   `$ chmod +x cmake-3.24.0-linux-x86_64.sh`
-
-   `$ sudo ./cmake-3.24.0-linux-x86_64.sh --skip-license --prefix=/usr/local`
  * BLAS
    
    `$ sudo apt-get update`
