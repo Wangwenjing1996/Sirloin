@@ -28,12 +28,16 @@ We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machin
 
 ### Build and run steps
  * Download this repository and change to the Sirloin folder.
+
    `$ cd Sirlin`
  * Create a "build" directory inside it.
-    `$ mkdir build`
+
+   `$ mkdir build`
  * Change to the "build" directory.
-    `$ cd build`
- * Run:
+
+   `$ cd build`
+ * Run.
+
    `$ cmake ..`
    
    `$ make`
