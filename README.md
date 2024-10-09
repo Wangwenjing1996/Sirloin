@@ -13,12 +13,18 @@ We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machin
 
 ### Prerequisites
  * Ubuntu 22.04.02 LTS
- * cmake 3.24.0
+ * CMake 3.24.0
+
+   `wget https://github.com/Kitware/CMake/releases/download/v3.24.0/cmake-3.24.0-linux-x86_64.sh`
+
+   `chmod +x cmake-3.24.0-linux-x86_64.sh`
+
+   `sudo ./cmake-3.24.0-linux-x86_64.sh --skip-license --prefix=/usr/local`
  * BLAS
    
-   `$sudo apt-get update`
+   `$ sudo apt-get update`
    
-   `$sudo apt-get install libblas-dev liblapack-dev`
+   `$ sudo apt-get install libblas-dev liblapack-dev`
 
 ### Build and run steps
 1. Download this repository and change to the Sirloin folder.
