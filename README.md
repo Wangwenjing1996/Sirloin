@@ -11,6 +11,13 @@ Our paper, "Streaming Time Series Subsequence Anomaly Detection: A Glance and Fo
 ## Linux build
 We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machine with an Intel Xeon Gold 622R @ 2.90GHz processor and 92GB memory. 
 
+### Prerequisites
+ * Ubuntu 22.04.02 LTS
+ * cmake 3.24.0
+ * BLAS
+   `$sudo apt-get update`
+   `$sudo apt-get install libblas-dev liblapack-dev`
+
 ### Build and run steps
 1. Download this repository and change to the Sirloin folder.
 
