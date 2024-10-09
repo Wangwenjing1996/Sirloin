@@ -15,7 +15,9 @@ We implement Sirloin in GCC 8.3.1, and all experiments are run on a Linux machin
  * Ubuntu 22.04.02 LTS
  * cmake 3.24.0
  * BLAS
+   
    `$sudo apt-get update`
+   
    `$sudo apt-get install libblas-dev liblapack-dev`
 
 ### Build and run steps
